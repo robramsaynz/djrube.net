@@ -9,6 +9,16 @@
   width: 100%;
 }
 
-.italic {
+.header-title {
+  margin-bottom: 0;
+}
+
+.header-byline {
+  font-size: .8rem;
   font-style: italic;
+  margin-bottom: .2rem;
+}
+
+.bold {
+  font-weight: bold;
 }
