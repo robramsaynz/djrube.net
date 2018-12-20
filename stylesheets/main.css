@@ -12,12 +12,38 @@
 }
 
 article {
-  margin-top: 1em;
+  margin: 1.8rem 0;
 }
 
 h2 {
   font-weight: bold;
-  color: white
+  color: white;
+  margin: .6rem 0;
+}
+
+h2 a {
+  color: white;
+}
+h2 a:hover {
+  color: #DDD;
+}
+h2 a:visited {
+  color: #DDD;
+}
+
+p {
+  margin: .6rem 0;
+}
+
+a {
+  color: #DDD;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: #CCC;
 }
 
 
