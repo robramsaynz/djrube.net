@@ -1,19 +1,29 @@
-
 .container {
   max-width: 48em;
   margin-left: auto;
   margin-right: auto;
 }
 
+.all {
+  /* Dark gray */
+  background-color: #6C6C6C;
+  /* muddy white */
+  color: #DDD;
+}
+
+
 .header-img {
   width: 100%;
 }
 
 .header-title {
+  /* Questionable magenta */
+  color: #f73b8f;
   margin-bottom: 0;
 }
 
 .header-byline {
+  color: white;
   font-size: .8rem;
   font-style: italic;
   margin-top: .2rem;
