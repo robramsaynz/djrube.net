@@ -11,6 +11,15 @@
   color: #DDD;
 }
 
+article {
+  margin-top: 1em;
+}
+
+h2 {
+  font-weight: bold;
+  color: white
+}
+
 
 .header-img {
   width: 100%;
@@ -29,6 +38,3 @@
   margin-top: .2rem;
 }
 
-.bold {
-  font-weight: bold;
-}
