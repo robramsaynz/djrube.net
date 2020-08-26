@@ -29,6 +29,7 @@ _run_slim_description: _force
 	@echo "Generating html from slim files..."
 
 docs/index.html: index.slim
-	$(SLIM_INTERPRETER) <index.slim >docs/index.html
-	tidy5 -config tidy_config.txt -m docs/index.html
+	$(SLIM_INTERPRETER) <index.slim >index.pre_tidy.html
+	tidy5 -config tidy_config.cfg -o docs/index.html index.pre_tidy.html
+	rm index.pre_tidy.html
 
