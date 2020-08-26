@@ -22,7 +22,7 @@ _warning:
 # ------ generate with slim up html ------
 
 _run_slim: _run_slim_description \
-	    docs/index.htm
+	    docs/index.html
 
 _run_slim_description: _force
 	@echo
